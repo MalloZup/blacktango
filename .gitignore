@@ -21,4 +21,9 @@ erl_crash.dump
 
 # Ignore package tarball (built via "mix hex.build").
 blacktango-*.tar
+  
+# ignore escript
+blacktango
 
+# ignore config
+.github_credentials.yaml
