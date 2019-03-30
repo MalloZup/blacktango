@@ -56,6 +56,18 @@ adding comment to GitHub PR https://github.com/MalloZup/gino/pull/719
 
 # Goals and roadmap:
 
-API: Currently supported: 
+## version 0.0.2
+
+Feel free to spend an issue if you have ideas.
+
+- add milestone check:
+   Write a comment for issues with a milestones that has expired.
+
+
+- investigate on graphql 100 issue
+
+
+
+# API: Currently supported: 
 - (GitHub API v4 `graphql`).
 
