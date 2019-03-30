@@ -1,8 +1,8 @@
 defmodule Github do
   require Neuron
 
-  def issues do
-     get_issues()
+  def comment_prs_and_issues(days \\ 30) do
+    comment_prs_and_issues_by(days)
   end
 
   defp set_comment_to_old_issues(repos) do
@@ -47,7 +47,7 @@ defmodule Github do
     end)
   end
 
-  defp get_issues do
+  defp comment_prs_and_issues_by(days) do
     gitHub_url = "https://api.github.com/graphql"
     [:ok, token] = Configuration.Yaml.credentials()
     headers = ["Authorization": "Bearer #{token}", "Accept": "Application/json; Charset=utf-8"] 
