@@ -7,13 +7,8 @@ defmodule Blacktango.MixProject do
       version: "0.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
-      escript: escript(),
       deps: deps()
     ]
-  end
-
-   defp escript do
-    [main_module: Blacktango.CLI]
   end
 
   # Run "mix help compile.app" to learn about applications.

@@ -26,4 +26,4 @@ blacktango-*.tar
 blacktango
 
 # ignore config
-.github_credentials.yaml
+.github_ops.yaml
